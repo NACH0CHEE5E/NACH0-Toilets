@@ -1,0 +1,12 @@
+{
+	"types": {
+		"NACH0.Types.PorcelainToilet": "Porcelain Toilet",
+		"NACH0.Types.Toilet": "Toilet",
+		"NACH0.Types.PlumberTable": "Plumber Table"
+	},
+	"typeuses": {
+		"NACH0.Types.PorcelainToilet": "Fancier than a hole in some dirt",
+		"NACH0.Types.Toilet": "A hole in the ground, not the best but works",
+		"NACH0.Types.PlumberTable": "Cleans Toilets"
+	}
+}
