@@ -146,7 +146,9 @@ namespace NACH0.Toilets
                     }
 
                     if (repaired)
+                    {
                         state.ResetActionToMaxLoad(ToiletConstants.CLEAN);
+                    }
                 }
             }
 

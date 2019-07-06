@@ -121,7 +121,7 @@ namespace NACH0.Toilets
         }
 
 
-        public override List<string> ObjectiveCategories => new List<string>() { "toilets" };
+        public override List<string> ObjectiveCategories => new List<string>() { "toilet" };
         public override string JobItemKey => Nach0Config.JobPrefix + Plumber.job;
         public override List<ItemId> OkStatus => new List<ItemId>
             {

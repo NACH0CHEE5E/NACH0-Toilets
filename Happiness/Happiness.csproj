@@ -56,6 +56,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Happiness\DirtyToilets.cs" />
+    <Compile Include="Happiness\FancyToilets.cs" />
+    <Compile Include="Happiness\Toilets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Toilets\Constraints.cs" />
     <Compile Include="Nach0Config.cs" />

@@ -20,7 +20,7 @@ namespace NACH0.Happiness
         public float Evaluate(Colony colony)
         {
             //ServerLog.LogAsyncMessage(new LogMessage("<color=blue>1</color>", UnityEngine.LogType.Log));
-            if (colony != null && colony.FollowerCount > 15 && RoamingJobManager.Objectives.TryGetValue(colony, out var toiletLocations))
+            if (colony != null && colony.FollowerCount > 15 && RoamingJobManager.Objectives[colony].ContainsKey("toilet"))
             {
                 //ServerLog.LogAsyncMessage(new LogMessage("<color=blue>2</color>", UnityEngine.LogType.Log));
                 var DirtyToiletCount = 0;

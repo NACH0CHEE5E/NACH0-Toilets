@@ -1,8 +1,8 @@
 [{
-	"name": "NACH0.Happiness",
+	"name": "NACH0.Toilets",
 	"version": "1.0.0",
-	"namepretty": "NACH0's Happiness",
-	"dllpath": "Happiness.dll",
+	"namepretty": "NACH0's Toilets",
+	"dllpath": "Toilets.dll",
 	"enabled": true,
 	"marksgamemodded": true,
 	"compatibleversions": [
